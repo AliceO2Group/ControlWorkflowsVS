@@ -1,4 +1,4 @@
-name: "readout-root"
+name: "readout-dummy-root"
 roles:
   - name: "readout-role-0"
     constraints:
