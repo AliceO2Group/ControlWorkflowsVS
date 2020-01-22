@@ -63,12 +63,12 @@ roles:
     task:
       load: readout-cru
 
-  - name: "readout-role-9"
-    constraints:
-      - attribute: machine_id
-        value: alio2-cr1-flp142
-    task:
-      load: readout-cru
+#  - name: "readout-role-9"
+#    constraints:
+#      - attribute: machine_id
+#        value: alio2-cr1-flp142
+#    task:
+#      load: readout-cru
 
   - name: "readout-role-10"
     constraints:
