@@ -3,83 +3,20 @@ roles:
   - name: "readout-role-0"
     constraints:
       - attribute: machine_id
-        value: alio2-cr1-flp133
+        value: alio2-cr1-flp134
     task:
       load: readout-cru
 
   - name: "readout-role-1"
     constraints:
       - attribute: machine_id
-        value: alio2-cr1-flp134
-    task:
-      load: readout-cru
-
-#  - name: "readout-role-2"
-#    constraints:
-#      - attribute: machine_id
-#        value: alio2-cr1-flp135
-#    task:
-#      load: readout-cru
-
-  - name: "readout-role-3"
-    constraints:
-      - attribute: machine_id
         value: alio2-cr1-flp136
     task:
       load: readout-cru
 
-  - name: "readout-role-4"
+  - name: "readout-role-2"
     constraints:
       - attribute: machine_id
         value: alio2-cr1-flp137
-    task:
-      load: readout-cru
-
-  - name: "readout-role-5"
-    constraints:
-      - attribute: machine_id
-        value: alio2-cr1-flp138
-    task:
-      load: readout-cru
-
-  - name: "readout-role-6"
-    constraints:
-      - attribute: machine_id
-        value: alio2-cr1-flp139
-    task:
-      load: readout-cru
-
-  - name: "readout-role-7"
-    constraints:
-      - attribute: machine_id
-        value: alio2-cr1-flp140
-    task:
-      load: readout-cru
-
-  - name: "readout-role-8"
-    constraints:
-      - attribute: machine_id
-        value: alio2-cr1-flp141
-    task:
-      load: readout-cru
-
-#  - name: "readout-role-9"
-#    constraints:
-#      - attribute: machine_id
-#        value: alio2-cr1-flp142
-#    task:
-#      load: readout-cru
-
-  - name: "readout-role-10"
-    constraints:
-      - attribute: machine_id
-        value: alio2-cr1-flp143
-    task:
-      load: readout-cru
-
-  - name: "readout-role-11"
-    constraints:
-      - attribute: machine_id
-        value: alio2-cr1-flp144
     task:
       load: readout-cru
